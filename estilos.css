@@ -1,0 +1,90 @@
+/*Estilos generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-color: wheat;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  background-color: chocolate;
+  height: 10vh;
+}
+ul li {
+  background-color: khaki;
+  color: brown;
+  width: 100px;
+  flex-basis: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 10px;
+}
+aside {
+  background-color: lightsalmon;
+  width: 30%;
+  height: 75vh;
+  float: left;
+  font-size: 18px;
+}
+p {
+  background-color: lightsalmon;
+  flex-basis: 200px;
+  margin: 10px;
+}
+
+main {
+  width: 69%;
+  height: 75vh;
+  background-color: palegoldenrod;
+}
+div {
+  background-color: orangered;
+  flex-basis: 170px;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border: solid 1px khaki;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  width: 100%;
+  flex-basis: 10vh;
+  color: khaki;
+  text-align: center;
+}
+
+/* Flexbox*/
+
+.menu-flex {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.aside-flex {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-evenly;
+}
+.footer-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
